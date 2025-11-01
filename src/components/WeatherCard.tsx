@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import { 
   Heart, MapPin, Wind, Droplets, Gauge, RefreshCw, 
-  Thermometer, Eye, Sun, Calendar
+  Thermometer, Sun, Calendar
 } from 'lucide-react';
 import { useFavorites } from '../hooks/useFavorites';
 import { useSelector } from 'react-redux';

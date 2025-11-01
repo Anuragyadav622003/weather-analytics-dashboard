@@ -13,7 +13,7 @@ const SearchBar: React.FC = () => {
   const [isSearching, setIsSearching] = useState(false);
   const searchRef = useRef<HTMLDivElement>(null);
 
-  const { searchResults, searchCitiesByQuery, clearSearch, getWeatherByCity, loading } = useWeather();
+  const { searchResults, searchCitiesByQuery, clearSearch, getWeatherByCity } = useWeather();
   const { addToFavorites, isFavorite } = useFavorites();
 
   // Load recent searches from localStorage on mount
